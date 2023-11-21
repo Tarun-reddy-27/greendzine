@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+body {
+  top: 0px;
+  left: 0px;
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%) 0%
+    0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border-radius: 28px;
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formContainer {
+  text-align: center;
+}
+
+.logo {
+  top: 175px;
+  position: absolute;
+  mix-blend-mode: normal;
+  opacity: 1;
+/* Responsive styles */
+  @media (max-width: 768px) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.tagline {
+  position: absolute;
+  top: 300px;
+  left: 140px;
+  width: 143px;
+  height: 19px;  
+  text-align: center;
+  font: normal normal normal 20px/26px Mulish;
+  letter-spacing: 0.02px;
+  color: #36A546CC;
+  margin-bottom: 15px;
+  opacity: 1;
+}
+
+.form {
+  position: absolute;
+  top: 350px;
+  width: 238px;
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    width: 80%;
+    max-width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+.input  {
+  margin-top: 25px;
+  width: 275px;
+  height: 42px;
+  background: #1F191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  color: #FFFFFF;
+}
+
+.forgotPassword a {
+  position: absolute;
+  top: 275px;
+  left: 90px;
+  width: 143px;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  letter-spacing: 0.02px;
+  color: #36A546;
+  opacity: 1;
+}
+
+.button 
+  {
+    margin-top: 25px;
+    width: 300px;
+    height: 42px;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 25px;
+  
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
